@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- LeftPart -->
+
+        <img src="./img/SVG/embed.svg" alt="html code" srcset="" class="logo" />
+
+        <!-- MiddlePart -->
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search Hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <!-- RightPart -->
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notifications">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notifications">8</span>
+          </div>
+
+          <div class="user-nav__user">
+            <img
+              src="./img/prashraya.jpg"
+              alt="Prashraya Photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__username">Prashraya Panta</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">left Side Bar</nav>
+        <main class="hotel-view">Hotel View</main>
+      </div>
+    </div>
+  </body>
+</html>

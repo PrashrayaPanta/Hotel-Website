@@ -1,0 +1,11 @@
+{
+  "name": "hotel-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-compiler":"sass ./SASS/main.scss ./CSS/index.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
