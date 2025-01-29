@@ -63,10 +63,10 @@ body {
 
 .header {
   height: 7rem;
-  // background-color: #fff;
+  background-color: #fff;
   border-bottom: var(--color-grey-light-2);
   display: flex;
-  background-color: blue;
+  // background-color: blue;
   justify-content: space-between;
   align-items: center;
 }
@@ -135,7 +135,7 @@ body {
 .user-nav {
   display: flex;
   gap: 3rem;
-  // background-color: yellow;
+  // align-self: stretch;
 
   &__user {
     display: flex;
@@ -147,6 +147,11 @@ body {
     display: flex;
     position: relative;
     // background-color: pink;
+    align-items: center;
+  }
+
+  &__icon-box:hover {
+    background-color: var(--color-grey-dark-3);
   }
 
   &__icon {
@@ -161,7 +166,7 @@ body {
     // height: 2.5rem;
     background-color: #ff3366;
     position: absolute;
-    top: -1rem;
+    top: 1rem;
     right: -0.2rem;
   }
 
@@ -174,27 +179,17 @@ body {
 
 //flex container
 .content {
-  // background-color: purple;
   display: flex;
+  background-color: #3498db;
 }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-
-  // flex: 0 0 200px;
-
-  // flex: 0 0 18%;
-
-  // height:122px;
-
-  // min-width:500px;
-
-  // flex-basis: 18%;
 }
 
 .hotel-view {
   background-color: #fff;
   background-color: orangered;
   // height:30px;
-  flex: 1;
+  // flex: 1;
 }

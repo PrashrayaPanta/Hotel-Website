@@ -43,9 +43,9 @@ body {
 
 .header {
   height: 7rem;
+  background-color: #fff;
   border-bottom: var(--color-grey-light-2);
   display: flex;
-  background-color: blue;
   justify-content: space-between;
   align-items: center;
 }
@@ -105,6 +105,10 @@ body {
 .user-nav__icon-box {
   display: flex;
   position: relative;
+  align-items: center;
+}
+.user-nav__icon-box:hover {
+  background-color: var(--color-grey-dark-3);
 }
 .user-nav__icon {
   width: 2.25rem;
@@ -113,7 +117,7 @@ body {
 .user-nav__notifications {
   background-color: #ff3366;
   position: absolute;
-  top: -1rem;
+  top: 1rem;
   right: -0.2rem;
 }
 .user-nav__user-photo {
@@ -124,6 +128,7 @@ body {
 
 .content {
   display: flex;
+  background-color: #3498db;
 }
 
 .sidebar {
@@ -133,7 +138,6 @@ body {
 .hotel-view {
   background-color: #fff;
   background-color: orangered;
-  flex: 1;
 }
 
 /*# sourceMappingURL=index.css.map */
