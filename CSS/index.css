@@ -97,6 +97,7 @@ body {
 .user-nav {
   display: flex;
   gap: 3rem;
+  align-self: stretch;
 }
 .user-nav__user {
   display: flex;

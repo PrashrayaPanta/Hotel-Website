@@ -135,18 +135,16 @@ body {
 .user-nav {
   display: flex;
   gap: 3rem;
-  // align-self: stretch;
+  align-self: stretch;
 
   &__user {
     display: flex;
     align-items: center;
-    // background-color: #3498db;
   }
 
   &__icon-box {
     display: flex;
     position: relative;
-    // background-color: pink;
     align-items: center;
   }
 
